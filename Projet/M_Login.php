@@ -22,11 +22,8 @@ try {
     } else {
         if ($r->fetch()) {
             echo "L'utilisateur est connecté";
-
             session_start();
-
             $_SESSION['pseudo'] = $pseudo;
-
             header('location: index.php');
         } else {
             echo "Erreur durant la connection";
@@ -36,3 +33,4 @@ try {
     echo "Erreur: " . $e->getMessage();
 }
 var_dump($_POST);
+?>

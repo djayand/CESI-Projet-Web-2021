@@ -3,6 +3,7 @@
 		<li><a href="index.php">Acceuil</a></li>
 		<li><a href="login.php">Connexion</a></li>
 		<li><a href="inscription.php">Inscription</a></li>
+		<li><a href="stage.php">Stage</a></li>
 	</ul>
 
 	<?php
@@ -13,6 +14,6 @@
 	}
 	?>
 
-<input class="btn btn-primary" type="button" onclick="window.location.href = 'M_Unlogin.php';" value="Se déconnecter"/>
+<input type="button" onclick="window.location.href = 'M_Unlogin.php';" value="Se déconnecter"/>
 
 </body>
