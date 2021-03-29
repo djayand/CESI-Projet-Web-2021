@@ -15,8 +15,13 @@ Il est possible d'ajouter, de modifier, de supprimer et de mettre a jour une per
 Les cookies sont disponibles sur tout le site
 Modification et suppressions d'anciennes pages obsoletes
 
-# 2.0
-Cration de plusieurs pages HTML
+# 2.0 - Connexion avec la BDD 
+Mise a jour partie php
+Connexion possible (pas encore l'inscription)
+bug CSS résolu
+Ajout header et footer
+Ajout session
+Connexion BDD fonctionelle
 
 
 # 1.0
