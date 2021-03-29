@@ -1,5 +1,10 @@
 # Listing des mises a jour : 
 
+# 5.1 - CRUD entreprise et cookies de session
+- Les cookies permettent de naviguer sur tout le site en étant identifié
+- Header mis a jour en fonction de la connection ou non
+- CRUD entreprise dispo
+
 # 5.0 - CRUD effectif pour les personnes et notes de MAJ
 - Il est possible d'ajouter, de modifier, de supprimer et de mettre a jour une personne
 - Les cookies sont disponibles sur tout le site
