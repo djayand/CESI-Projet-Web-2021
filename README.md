@@ -5,10 +5,10 @@
 - Les cookies sont disponibles sur tout le site
 - Modification et suppressions d'anciennes pages obsoletes
 
-# 4.0
-Il est possible d'ajouter, de modifier, de supprimer et de mettre a jour une personne
-Les cookies sont disponibles sur tout le site
-Modification et suppressions d'anciennes pages obsoletes
+# 4.0 - Début d'envoi de requêtes
+- La coque des modifs sur la BDD est réalisée
+- On peut bien rechercher qqun a présent
+- il manque les autres parties, en cours de construction
 
 # 3.1
 - Ajout des modifs des collèges
