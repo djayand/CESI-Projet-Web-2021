@@ -1,5 +1,9 @@
 # Listing des mises a jour : 
 
+# 6.0 - Gestion des LM et des CV
+- Il est possible de savoir quels CV/LM nous avons, et d'importer pour l'instant du texte
+- Petits bugs PHP corrigés
+
 # 5.1 - CRUD entreprise et cookies de session
 - Les cookies permettent de naviguer sur tout le site en étant identifié
 - Header mis a jour en fonction de la connection ou non
