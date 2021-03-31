@@ -1,5 +1,9 @@
 # Listing des mises a jour : 
 
+# 7.0 - Recherche de stage et sécurisation
+- Les mots de passes n'apparaissent plus en clair
+- On peut désormais chercher un stage
+
 # 6.0 - Gestion des LM et des CV
 - Il est possible de savoir quels CV/LM nous avons, et d'importer pour l'instant du texte
 - Petits bugs PHP corrigés
