@@ -1,5 +1,11 @@
 # Listing des mises a jour : 
 
+# 8.0 Système de pagination et graphismes améliorés
+- CRUD fonctionnel partout
+- Début de mise en place graphique
+- Tri des fichiers dans des différents dossiers
+- Mise a jour des fichiers des collègues
+
 # 7.0 - Recherche de stage et sécurisation
 - Les mots de passes n'apparaissent plus en clair
 - On peut désormais chercher un stage
