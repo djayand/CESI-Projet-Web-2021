@@ -143,10 +143,15 @@ CREATE TABLE IF NOT EXISTS `entreprise` (
 --
 
 INSERT INTO `entreprise` (`ID_Entreprise`, `Nom_entreprise`, `Secteur_activite`, `Evaluation_entreprise`, `Confiance_pilote`, `NB_stage_validee`) VALUES
-(1, 'CESi', 'Education', 1, 5, 0),
-(2, 'Apple', 'Téléphonie', 4, 4, 42),
-(3, 'Atlético de Madrid ', 'Club de football', 5, 5, 1),
-(4, 'Samsung', 'Téléphonie', 3, 3, 11);
+(1, 'Apple', 'Téléphonie', 4, 4, 42),
+(2, 'Google', 'Technologie', 4, 1, 47),
+(3, 'Microsoft', 'Technologie', 3, 3, 11),
+(4, 'Amazon', 'E-commerce', 1, 2, 48),
+(5, 'Facebook', 'Réseaux sociaux', 1, 5, 9),
+(6, 'Tesla', 'Automobile', 1, 4, 48),
+(7, 'Atlético de Madrid ', 'Club de football', 5, 5, 1),
+(8, 'Coca-Cola', 'Boissons', 2, 1, 37),
+(9, 'Nike', 'Vêtements', 4, 2, 32);
 
 -- --------------------------------------------------------
 
@@ -494,8 +499,26 @@ CREATE TABLE IF NOT EXISTS `stage` (
 --
 
 INSERT INTO `stage` (`ID_Stage`, `Descriptif_stage`, `Commentaire_stage`, `Note_etudiant_stage`, `Duree_stage`, `Base_remuneration`, `Date_offre`, `Type_promos`, `Nbre_places_offertes`, `Convention_stage`, `Fiche_validation`, `ID_Entreprise`) VALUES
-(1, 'Dev web', 'commentaire1.txt', 4, 14, 601, '2020-04-07', 'A1', 1, 'conventionapple.pdf', 'fichevalidationcesi.pdf', 2),
-(2, 'Développement application en .NET', 'commentaire2.txt', 0, 14, 776, '2021-04-06', 'A2', 2, 'conventionsignee.pdf', 'fichevalidationaremplir.pdf', 4);
+(1, 'Assistant ingénieur', 'commentaire1.txt', 2, 18, 737, '2023-01-22', 'A1', 5, 'convention1.pdf', 'fichevalidation1.pdf', 3),
+(2, 'Stage PFE en ressources humaines', 'commentaire2.txt', 1, 18, 1002, '2024-08-20', 'A5', 2, 'convention2.pdf', 'fichevalidation2.pdf', 6),
+(3, 'Stage en communication', 'commentaire3.txt', 4, 12, 786, '2023-01-14', 'A1', 5, 'convention3.pdf', 'fichevalidation3.pdf', 8),
+(4, 'Stage PFE en développement logiciel', 'commentaire4.txt', 1, 18, 796, '2021-12-02', 'A5', 4, 'convention4.pdf', 'fichevalidation4.pdf', 8),
+(5, 'Assistant ingénieur', 'commentaire5.txt', 3, 18, 1199, '2021-08-29', 'A4', 4, 'convention5.pdf', 'fichevalidation5.pdf', 2),
+(6, 'Stage en gestion de projet', 'commentaire6.txt', 2, 18, 421, '2022-02-20', 'A2', 4, 'convention6.pdf', 'fichevalidation6.pdf', 1),
+(7, 'Stage en marketing digital', 'commentaire7.txt', 5, 24, 762, '2020-01-09', 'A1', 1, 'convention7.pdf', 'fichevalidation7.pdf', 8),
+(8, 'Stage en communication', 'commentaire8.txt', 4, 18, 538, '2020-09-20', 'A2', 5, 'convention8.pdf', 'fichevalidation8.pdf', 4),
+(9, 'Stage PFE en développement web', 'commentaire9.txt', 4, 22, 916, '2024-08-26', 'A5', 2, 'convention9.pdf', 'fichevalidation9.pdf', 8),
+(10, 'Stage en communication', 'commentaire10.txt', 3, 16, 735, '2021-09-01', 'A2', 2, 'convention10.pdf', 'fichevalidation10.pdf', 7),
+(11, 'Stage en design graphique', 'commentaire11.txt', 5, 22, 908, '2024-04-13', 'A1', 3, 'convention11.pdf', 'fichevalidation11.pdf', 1),
+(12, 'Analyste de données', 'commentaire12.txt', 2, 18, 709, '2021-12-06', 'A1', 3, 'convention12.pdf', 'fichevalidation12.pdf', 1),
+(13, 'Stage en gestion de projet', 'commentaire13.txt', 4, 24, 1076, '2020-12-14', 'A1', 1, 'convention13.pdf', 'fichevalidation13.pdf', 7),
+(14, 'Stage en design graphique', 'commentaire14.txt', 2, 18, 734, '2021-05-30', 'A1', 3, 'convention14.pdf', 'fichevalidation14.pdf', 1),
+(15, 'Stage en communication', 'commentaire15.txt', 4, 16, 755, '2022-11-13', 'A1', 3, 'convention15.pdf', 'fichevalidation15.pdf', 2),
+(16, 'Développement application en .NET', 'commentaire16.txt', 3, 24, 797, '2020-10-17', 'A3', 3, 'convention16.pdf', 'fichevalidation16.pdf', 1),
+(17, 'Stage en communication', 'commentaire17.txt', 4, 16, 936, '2020-11-11', 'A2', 1, 'convention17.pdf', 'fichevalidation17.pdf', 5),
+(18, 'Développement application en .NET', 'commentaire18.txt', 1, 18, 862, '2020-04-04', 'A3', 5, 'convention18.pdf', 'fichevalidation18.pdf', 6),
+(19, 'Stage PFE en gestion de projet', 'commentaire19.txt', 1, 24, 1178, '2024-05-07', 'A5', 4, 'convention19.pdf', 'fichevalidation19.pdf', 4),
+(20, 'Analyste de données', 'commentaire20.txt', 2, 24, 1081, '2023-06-20', 'A5', 1, 'convention20.pdf', 'fichevalidation20.pdf', 1);
 
 --
 -- Contraintes pour les tables déchargées
