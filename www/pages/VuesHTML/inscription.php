@@ -38,7 +38,7 @@ session_start();
 			<div class="card card-3">
 				<div class="card-body">
 					<h2 class="title">Inscrivez-vous :</h2>
-					<form method="POST" action="../Modeles/M_Login.php">
+					<form method="POST" action="../Modeles/M_Inscription.php">
 						<div class="input-group">
 							<input class="input--style-3" name=inom class="champ" type="text" placeholder="Nom de famille :" maxlength="20" size="20" required>
 						</div>
@@ -53,6 +53,12 @@ session_start();
 						</div>
 						<div class="input-group">
 							<input class="input--style-3" name=ilog class="champ" type="text" placeholder="Identifiant :" maxlength="20" size="20" required>
+						</div>
+						<div class="input-group">
+							<input class="input--style-3" name=ipromo class="champ" type="text" placeholder="Promotion (A1, A2, ...) :" maxlength="20" size="20" required>
+						</div>
+						<div class="input-group">
+							<input class="input--style-3" name=icentre class="champ" type="text" placeholder="Centre (Paris, Lyon, ...) :" maxlength="20" size="20" required>
 						</div>
 						<div class="input-group">
 							<input class="input--style-3" name=imdp1 class="champ" type="password" placeholder="Mot de passe (8 caractères minimum :)" maxlength="20" size="20" pattern=".{4,}" required>
