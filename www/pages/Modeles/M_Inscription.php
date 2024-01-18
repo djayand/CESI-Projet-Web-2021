@@ -21,12 +21,12 @@ try {
 
   // On crée une requête SQL pour s'inscrire sur la plateforme
   $sql = 'INSERT INTO 
-  personne(ID_Personne, Nom, Prenom, Mail, Portable, Login, Mdp) 
-  VALUES (NULL, :nom, :prenom, :mail, :num, :login, :mdp)';
+  personne(ID_Personne, Nom, Prenom, Mail, Portable, Promo, Centre, Login, Mdp) 
+  VALUES (NULL, :nom, :prenom, :mail, :num, :promo, :centre, :login, :mdp)';
 
   // On utilise les requêtes préparées pour protéger des injections SQL
   $sth = $db->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
-  $sth->execute(array(':nom' => $nom, ':prenom' => $prenom, ':mail' => $mail, ':num' => $num, ':login' => $login, ':mdp' => $mdp));
+  $sth->execute(array(':nom' => $nom, ':prenom' => $prenom, ':mail' => $mail, ':num' => $num, ':promo' => $promo, ':centre' => $centre, ':login' => $login, ':mdp' => $mdp));
   $req = $sth->fetchAll();
 
   // On redirige vers l'index
