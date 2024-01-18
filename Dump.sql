@@ -289,9 +289,11 @@ CREATE TABLE IF NOT EXISTS `personne` (
   `Nom` varchar(32) NOT NULL,
   `Prenom` varchar(32) NOT NULL,
   `Mail` varchar(64) NOT NULL,
-  `Portable` int NOT NULL,
+  `Portable` varchar(32) NOT NULL,
+  `Promo` varchar(32) NOT NULL,
+  `Centre` varchar(32) NOT NULL,
   `Login` varchar(64) NOT NULL,
-  `Mdp` varchar(64) NOT NULL,
+  `Mdp` varchar(128) NOT NULL,
   PRIMARY KEY (`ID_Personne`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -299,12 +301,12 @@ CREATE TABLE IF NOT EXISTS `personne` (
 -- Déchargement des données de la table `personne`
 --
 
-INSERT INTO `personne` (`ID_Personne`, `Nom`, `Prenom`, `Mail`, `Portable`, `Login`, `Mdp`) VALUES
-(1, 'DEMAISON', 'Djayan', 'djayan.demaison@viacesi.fr', 613055829, 'djayou', 'azerty'),
-(2, 'LAMBERT', 'Arthur', 'arthur.lambert@viacesi.fr', 611559977, 'arturo', 'azerty987'),
-(3, 'HITTINGER', 'Arnaud', 'arnaud.hittinger@viacesi.fr', 677889988, 'arnoldito', 'azerty456'),
-(4, 'SPATARO', 'Fred', 'frederic.sparato@viacesi.fr', 611221122, 'fredou', 'azerty123'),
-(5, 'BRESCIANI', 'Julie', 'bj@cesi.fr', 699887744, 'bjcesi', 'azertycesi');
+INSERT INTO `personne` (`ID_Personne`, `Nom`, `Prenom`, `Mail`, `Portable`, `Promo`, `Centre`, `Login`, `Mdp`) VALUES
+(1, 'DEMAISON', 'Djayan', 'djayan.demaison@viacesi.fr', '0613055829', 'A5', 'Vandoeuvre-lés-Nancy', 'ddemaison', '3aadf99f05627d32a5d789f8b657dd53e0671e41'),
+(2, 'LAMBERT', 'Arthur', 'arthur.lambert@viacesi.fr', '0611559977', 'A5', 'Vandoeuvre-lés-Nancy',  'alambert', '3aadf99f05627d32a5d789f8b657dd53e0671e41'),
+(3, 'HITTINGER', 'Arnaud', 'arnaud.hittinger@viacesi.fr', '0677889988', 'A5', 'Vandoeuvre-lés-Nancy', 'ahittinger', '3aadf99f05627d32a5d789f8b657dd53e0671e41'),
+(4, 'SPATARO', 'Fred', 'frederic.sparato@viacesi.fr', '0611221122', 'A5', 'Vandoeuvre-lés-Nancy', 'fredou', '3aadf99f05627d32a5d789f8b657dd53e0671e41'),
+(5, 'BRESCIANI', 'Julie', 'bj@cesi.fr', '0699887744', 'Pilote', 'Vandoeuvre-lés-Nancy',  'bjcesi', '3aadf99f05627d32a5d789f8b657dd53e0671e41');
 
 -- --------------------------------------------------------
 
