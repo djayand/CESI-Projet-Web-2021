@@ -42,11 +42,36 @@ body {
 }
 
 .ftr {
-
   position: fixed;
   height: auto;
-  bottom: 0%;
+  bottom: 0;
   width: 100%;
-  list-style-type: none;
-  background-color: rgb(6, 80, 240);
+  background-color: #2a2a72; 
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ftr a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+
+.ftr a:hover {
+  color: #f0e68c;
+}
+
+.social-icon {
+  display: inline;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.social-icon img {
+  width: 20px;
+  height: 20px;
 }
